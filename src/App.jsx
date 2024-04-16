@@ -11,13 +11,12 @@ function App() {
  
   return (
     
-      <div className='wraper'>
-  <h1>Phonebook</h1>
+    <div className='wraper'>
+      <h1>Phonebook</h1>
       <ContactForm  />
       <SearchBox  />
       <ContactList  />
-</div>
-    
+    </div>    
   )
 }
 
