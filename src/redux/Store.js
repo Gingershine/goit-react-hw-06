@@ -24,6 +24,7 @@ export const store = configureStore({
     contacts: persistReducer(contactsConfig, contactsReducer),
     filters: filtersReducer
   },
+  
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
       serializableCheck: {
