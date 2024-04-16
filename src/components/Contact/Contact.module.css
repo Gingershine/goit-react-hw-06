@@ -1,0 +1,26 @@
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.wraper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ gap: 6px;
+}
+
+.btn {
+    width: 80px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 4px;
+    
+
+}
