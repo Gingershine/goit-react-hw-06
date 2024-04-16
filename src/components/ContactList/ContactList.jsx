@@ -20,7 +20,7 @@ const ContactList = () => {
   const contacts = useSelector(selectContacts);
   const filter = useSelector(selectNameFilter);
   const filteredContacts = getFilteredContacts(contacts, filter);
-    
+  
   return (
     <div>
       <ul className={css.list}>
